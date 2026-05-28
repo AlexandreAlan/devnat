@@ -1,0 +1,17 @@
+# binaries
+/devnat
+/dist/
+*.exe
+
+# env / secrets
+.env
+.env.local
+*.local
+
+# agent assistant configs (never commit)
+CLAUDE.md
+GEMINI.md
+
+# OS / editor
+.DS_Store
+*.swp
