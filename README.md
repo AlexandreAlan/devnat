@@ -127,6 +127,12 @@ Every flag has an environment-variable equivalent.
 
 ---
 
+## Install a prebuilt binary
+
+Every `v*` tag is built and published to [GitHub Releases](https://github.com/AlexandreAlan/devnat/releases)
+via `goreleaser` (see `.github/workflows/release.yml`). Download the binary for your OS/arch,
+no Go toolchain required.
+
 ## Build from source
 
 ```bash
